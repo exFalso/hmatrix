@@ -102,7 +102,7 @@ module Numeric.LinearAlgebra.Data(
     fromArray2D,
     module Data.Complex,
     Mod,
-    Vector, Matrix, GMatrix, nRows, nCols
+    Vector, Matrix(..), GMatrix, nRows, nCols
 
 ) where
 
@@ -117,5 +117,3 @@ import Internal.Util hiding ((&))
 import Data.Complex
 import Internal.Sparse
 import Internal.Modular
-
-
